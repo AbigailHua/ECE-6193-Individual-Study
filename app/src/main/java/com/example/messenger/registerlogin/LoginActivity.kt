@@ -1,10 +1,12 @@
-package com.example.messenger
+package com.example.messenger.registerlogin
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import com.example.messenger.databinding.ActivityLoginBinding
+import com.example.messenger.messages.LatestMessagesActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -43,13 +45,15 @@ class LoginActivity: AppCompatActivity() {
                     Log.d(TAG, "signInWithEmail:success")
                     val user = auth.currentUser
                     Log.d(TAG, "${user.toString()} logged in")
-//                    updateUI(user)
+
+                    val intent = Intent(this, LatestMessagesActivity::class.java)
+                    intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK.or(Intent.FLAG_ACTIVITY_NEW_TASK)
+                    startActivity(intent)
                 } else {
                     // If sign in fails, display a message to the user.
                     Log.w(TAG, "signInWithEmail:failure", task.exception)
                     Toast.makeText(baseContext, "Authentication failed.",
                         Toast.LENGTH_SHORT).show()
-//                    updateUI(null)
                 }
             }
     }

@@ -6,8 +6,18 @@
         <entry key="..\:/Users/AbigailHua/AndroidStudioProjects/Messenger/app/src/main/res/drawable/rounded_button.xml" value="0.175" />
         <entry key="..\:/Users/AbigailHua/AndroidStudioProjects/Messenger/app/src/main/res/drawable/rounded_edittext_register_login.xml" value="0.175" />
         <entry key="..\:/Users/AbigailHua/AndroidStudioProjects/Messenger/app/src/main/res/drawable/rounded_select_photo_button.xml" value="0.175" />
+        <entry key="..\:/Users/AbigailHua/AndroidStudioProjects/Messenger/app/src/main/res/drawable/rounded_textview_chat_from.xml" value="0.3609375" />
+        <entry key="..\:/Users/AbigailHua/AndroidStudioProjects/Messenger/app/src/main/res/drawable/rounded_textview_chat_to.xml" value="0.3609375" />
+        <entry key="..\:/Users/AbigailHua/AndroidStudioProjects/Messenger/app/src/main/res/layout/activity_chat_log.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/AbigailHua/AndroidStudioProjects/Messenger/app/src/main/res/layout/activity_latest_messages.xml" value="0.175" />
         <entry key="..\:/Users/AbigailHua/AndroidStudioProjects/Messenger/app/src/main/res/layout/activity_login.xml" value="0.335" />
         <entry key="..\:/Users/AbigailHua/AndroidStudioProjects/Messenger/app/src/main/res/layout/activity_main.xml" value="0.1377049180327869" />
+        <entry key="..\:/Users/AbigailHua/AndroidStudioProjects/Messenger/app/src/main/res/layout/activity_new_message.xml" value="0.159375" />
+        <entry key="..\:/Users/AbigailHua/AndroidStudioProjects/Messenger/app/src/main/res/layout/activity_register.xml" value="0.45" />
+        <entry key="..\:/Users/AbigailHua/AndroidStudioProjects/Messenger/app/src/main/res/layout/chat_from_row.xml" value="0.335" />
+        <entry key="..\:/Users/AbigailHua/AndroidStudioProjects/Messenger/app/src/main/res/layout/chat_to_row.xml" value="0.1" />
+        <entry key="..\:/Users/AbigailHua/AndroidStudioProjects/Messenger/app/src/main/res/layout/latest_message_row.xml" value="0.375" />
+        <entry key="..\:/Users/AbigailHua/AndroidStudioProjects/Messenger/app/src/main/res/layout/user_row_new_message.xml" value="0.2140625" />
       </map>
     </option>
   </component>
